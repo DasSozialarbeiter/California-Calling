@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@font-face {
+  font-family: "LarishNeueSemibold";
+  src: url(../fonts/LarishNeueSemibold.woff) format("woff");
+}
+@font-face {
+  font-family: "Larish Neue Semibold";
+  src: url(../fonts/Larish\ Neue\ Semibold.woff2) format("woff2");
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header {
+  padding-top: 1vh;
+  padding-bottom: 8vh;
+  width: 100vw;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  position: relative;
+}
+header h1 {
+  min-width: 90vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "LarishNeueSemibold";
+  font-size: 7vh;
+}
+#california {
+    margin-bottom: -3vw;
+    text-align: center;
+}
+#calling {
+    text-align: center;
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+}
+#presents, #dedicated {
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 0;
+  font-family: "Work Sans";
+  font-size: smaller;
+}
+#dedicated {
+  margin-bottom: 10vh;
+}
+#icebear {
+  float: left;
+  margin-left: 5vw;
+}
+
+#button {
+  float: right;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  margin-right: 5vw;
+  padding: 13px 30px;
+  transition: 1.2s;
+}
+#button:hover {
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+}
+#description {
+  margin-right: 30vw;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  margin-bottom: 2vh;
+  font-family: 'Larish Neue Semibold';
+  font-size: 7vh;
+  text-align: left;
+  max-width: 80vw;
+}
+.line {
+  max-height: 20vh;
+  margin-bottom: 5vh;
+}
+.facts {
+    /* Um den Hintergund rechts anzuordnen! */
+  background-image: url(../img/map.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 98%;
+  margin-right: 2vw;
+}
+.numbers {
+  font-family: serif;
+  font-size: 7vh;
+  padding: 0vh 5vw;
+  margin: 0;
+}
+.wildfires {
+  padding: 0vh 5vw;
+  text-align: left;
+}
+main {
+  /* display: flex; */
+}
+article {
+    position: relative;
+}
+article div {
+  background: #fff;
+  color: #000;
+}
+.blackwhite img {
+    width: 20vw;
+}
+h3 {
+    text-align: left;
+    font-family: 'LarishNeueSemibold';
+    font-size: 5vh;
+    margin: 0;
+    padding: 0 36vw;
+  }
+#pinsandposters {
+  /* text-align: center;
+   */
+    padding: 0 30vw;
+   
+}
+#popupshop {
+    padding: 0 29vw;
+}
+#worker {
+    margin-top: -2.5em;
+    margin-left: 45em;
+}
+#press {
+    margin-top: 10vh;
+    margin-bottom: -4vh;
+    margin-left: 2vw;
+}
+#shirt {
+    margin-top: -2.5vw;
+    margin-left: 78vw;
+}
+#bearlogo {
+    margin-left: 20vw;
+}
+#pressbear {
+    margin-top: -2.5vw;
+    margin-left: 65vw;
+}
+#framebear {
+    margin-top: 5vh;
+    margin-bottom: -13vh;
+}
+#workers {
+    width: 30vw;
+    margin: 5vh 0 -5vh 50vw;
+}
+.goldenbear {
+    background: #000;
+    color: #fff;
+    height: 85vh;
+}
+.whitetopic {
+  margin-top: 1vh;
+  text-align: left;
+}
+#thegoldenbear {
+  margin-bottom: 20vh;
+  margin-top: -45vh;
+  font-size: 15pt;
+  font-weight: 500;
+  text-align: left;
+  padding: 0 10vw 0 55vw;
+}
+#artist {
+  margin-bottom: 20vh;
+  margin-top: -18vh;
+  padding: 0 10vw 0 55vw;
+}
+.blacktopic {
+  position: relative;
+  width: 20vw;
+  margin-left: -30vw;
+}
+#two {
+  margin-top: 10vh;
+  margin-left: 6vw;
+}
+#flowery {
+    position: absolute;
+    z-index: 2;
+    width: 50vw;
+    margin-top: -40vh;
+    margin-left: 20vw;
+}
+#manybears {
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -22vw;
+    margin-left: 65vw;;
+}
+#circle {
+    position: relative;
+    z-index: 1;
+    width: 30vw;
+    margin-top: -10vh;
+    margin-left: 78vw;
+}
+#zero {
+    margin-left: 6vw;
+    padding-top: 15vh;
+}
+.whitetopic {
+    width: 20vw;
+    /* margin-top: 10vh; */
+    margin-left: -30vw;
+    margin-bottom: 30vh;;
+}
+#poppy {
+  width: 100vw; 
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+#posterbear {
+  width: 25vw;
+  margin-left: -67vw;
+  margin-bottom: 10vh;
+}
+#thepoppybear {
+  font-weight: 700;
+  font-size: 15pt;
+  padding: 0 20vw 0 50vw;
+  margin-top: -17vh;
+  text-align: left;
+  
+}
+#artista {
+  padding: 0 20vw 10vh 50vw;
+}
+#rosebear {
+  width: 45vw;
+  margin-left: 30vw;
+  margin-bottom: 5vh;
+}
+#secondbutton {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  margin-right: 5vw;
+  padding: 13px 30px;
+  transition: 1.2s;
+}
+#secondbutton:hover {
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+}
+#lastpart {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+}
+#mark {
+  font-size: 15pt;
+  font-weight: 500;
+  text-align: left;
+  padding: 0 68vw 0 5vw;
+}
+/* animation:rotate-center 10s linear infinite both {
+
+@keyframes rotate-center{
+    0% {
+        transform:rotate(0)
+    }
+    100% {
+        transform:rotate(360deg)
+    }
+} */
